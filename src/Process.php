@@ -35,7 +35,7 @@ class Process
      * @param string|Command $command
      * @throws UnsuccessfulCommandException
      */
-    public static function checkProcessCreation(mixed $processHandle, string|Command $command)
+    public static function checkProcessCreation(mixed $processHandle, mixed $command)
     {
         if ($processHandle !== FALSE) return;
 

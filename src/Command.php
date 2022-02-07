@@ -7,17 +7,17 @@ class Command
     public string $executable = 'ocrmypdf';
     public bool $useFileAsInput = true;
     public bool $useFileAsOutput = true;
-    public string|null $tempDir;
-    public int|null $threadLimit;
-    public string|null $inputFilePath;
-    public int|null $inputDataSize;
-    public string|null $inputData;
-    public string|null $outputPDFPath;
+    public mixed $tempDir;
+    public mixed $threadLimit;
+    public mixed $inputFilePath;
+    public mixed $inputDataSize;
+    public mixed $inputData;
+    public mixed $outputPDFPath;
 
     /**
      * Command constructor.
-     * @param string|null $inputFilePath Path to input file
-     * @param string|null $outputPDFPath Path to output file
+     * @param mixed $inputFilePath Path to input file
+     * @param mixed $outputPDFPath Path to output file
      */
     public function __construct(string $inputFilePath = null, string $outputPDFPath = null, string $tempDir = null, int $threadLimit = null)
     {

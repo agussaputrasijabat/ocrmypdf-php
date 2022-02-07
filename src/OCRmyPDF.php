@@ -174,7 +174,7 @@ class OCRmyPDF
     /**
      * @throws NoWritePermissionsException
      */
-    public function setOutputPDFPath(string|null $outputPDFPath)
+    public function setOutputPDFPath(mixed $outputPDFPath)
     {
         if ($outputPDFPath == null) {
             $this->command->useFileAsOutput = false;
