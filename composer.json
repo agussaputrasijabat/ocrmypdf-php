@@ -1,7 +1,7 @@
 {
   "name": "agussaputrapro/ocrmypdf",
   "description": "A simple PHP wrapper for OCRmyPDF",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "library",
   "keywords": [
     "OCRmyPDF",
@@ -21,7 +21,7 @@
     "source": "https://github.com/mishagp/ocrmypdf-php"
   },
   "require": {
-    "php": "^7.3"
+    "php": "^7.1"
   },
   "require-dev": {
     "phpunit/php-code-coverage": "^2.2.4 || ^9.0.0",
