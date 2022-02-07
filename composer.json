@@ -21,7 +21,7 @@
     "source": "https://github.com/mishagp/ocrmypdf-php"
   },
   "require": {
-    "php": "^8.0"
+    "php": "^7.3"
   },
   "require-dev": {
     "phpunit/php-code-coverage": "^2.2.4 || ^9.0.0",
